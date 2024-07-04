@@ -38,6 +38,10 @@ p {
   text-align: center; /* zarovnání textu na střed */
 }
 
+.icon-container img {
+  width: 100px; /* Fixní šířka ikony */
+  height: auto; /* Automatická výška pro zachování poměru stran */
+}
 .icons img {
   width: 75%;
   max-width: 100%;
@@ -56,4 +60,8 @@ p {
 
 * {
   box-sizing: border-box;
+}
+
+h3 {
+  text-align: center;
 }
