@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <title>Studenka - zednické a řemeslné práce</title>
+</head>
+<body>
+    <header>
+        <h1>Studenka - zednické a řemeslné práce</h1>
+    </header>
+    <div class="container">
+        <h2>Něco málo o mě</h2>
+        <p>Jsem řemeslník/zedník s celoživotní praxí zaměřující se na jakkékoli, práce kolem bytu, domů, domečků, chat i chaloupek <span style='font-size:25px;'>&#128522;</span>.</p>
+    
+        <h2>Nabízené služby</h2>
+        <div class="icons">
+            <div class="icon-container">
+                <img src="{{ url_for('static', filename='images/brickwall.png') }}">
+                <p class="icon-text">Zednické práce</p>
+            </div>
+            <div class="icon-container">
+                <img src="{{ url_for('static', filename='images/hammer 2.png') }}">
+                <p class="icon-text">Rekonstrukce, montáže</p>
+            </div>
+            <div class="icon-container">
+                <img src="{{ url_for('static', filename='images/brush.png') }}">
+                <p class="icon-text">Malování</p>
+            </div>
+            <div class="icon-container">
+                <img src="{{ url_for('static', filename='images/pliers.png') }}">
+                <p class="icon-text">Instalatérské práce</p>
+            </div>
+        </div>
+        
+        <div class="contact-info">
+            <h2>Kontakt</h2>  
+            <p>Telefon: +420 702 857 017</p>
+        </div>
+
+        <h2>Ukázky prací</h2>
+        <div class="icons">
+          <div class="icon-container">
+                  <img src="{{ url_for('static', filename='images/01.jpg') }}" style="width:80%">
+                  <p class="icon-text">Opravá balkonového zábradlí</p>
+                    </div>
+                  <div class="icon-container">
+                    <img src="{{ url_for('static', filename='images/02.jpg') }}" style="width:80%">
+                    <p class="icon-text">Obkladácí dlažba sprchového koutu</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
