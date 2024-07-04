@@ -65,3 +65,15 @@ p {
 h3 {
   text-align: center;
 }
+
+.icon-container img {
+  width: 60%;
+}
+@media (max-width: 500px) {
+  .icon-container img {
+      width: 50%; /* Zmenšení šířky obrázků */
+  }
+  .icon-text {
+      font-size: 0.9em; /* Zmenšení velikosti textu */
+  }
+}
